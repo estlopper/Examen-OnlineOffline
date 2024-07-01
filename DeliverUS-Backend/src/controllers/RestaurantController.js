@@ -47,6 +47,7 @@ const create = async function (req, res) {
   }
 }
 
+// solution
 const swap = async function (req, res) {
   try {
     const restaurant = await Restaurant.findByPk(req.params.restaurantId)
